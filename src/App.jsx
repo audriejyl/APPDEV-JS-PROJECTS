@@ -1,18 +1,18 @@
-import React from 'react';
-import Keyboard from 'Keyboard';
-import Features from 'Features';
-import Specifications from 'Specifications';
-import SetupInstructions from 'Instructions';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import Header from './Header'
+import Footer from './Footer'
+import ColorPicker from './ColorPicker'
+function App() {
 
-const App = () => {
   return (
-    <div className="app">
-      <Keyboard />
-      <Features />
-      <Specifications />
-      <SetupInstructions />
-    </div>
-  );
-};
+    <>
+      <Header />
+      <ColorPicker />
+      <Footer />
+    </>
+  )
+}
 
-export default App;
+export default App
