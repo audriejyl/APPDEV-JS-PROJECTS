@@ -1,0 +1,90 @@
+.quote-generator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #f7f7f7;
+}
+
+.quote-container {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+}
+
+.quote-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.quote-text {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.generate-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.generate-btn:hover {
+  background-color: #3e8e41;
+}
+
+.random-btn {
+  background-color: #03A9F4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.random-btn:hover {
+  background-color: #039BE5;
+}
+
+.author-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.author-btn:hover {
+  background-color: #2e6da4;
+}
+
+.author-btn:nth-child(2) {
+  background-color: #e74c3c;
+}
+
+.author-btn:nth-child(2):hover {
+  background-color: #c0392b;
+}
